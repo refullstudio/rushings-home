@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>Rushings</title>
+
+<style>
+
+body{
+    margin:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:#0a0a0a;
+    color:white;
+    font-family:Arial, sans-serif;
+}
+
+
+.container{
+    text-align:center;
+}
+
+
+h1{
+    font-size:70px;
+    margin:0;
+    letter-spacing:10px;
+}
+
+
+p{
+    color:#aaa;
+    font-size:20px;
+}
+
+
+
+.buttons{
+    margin-top:40px;
+    display:flex;
+    gap:20px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+
+
+button{
+
+    background:#111;
+    color:white;
+    border:1px solid #333;
+    padding:20px 40px;
+    font-size:20px;
+    border-radius:10px;
+    cursor:pointer;
+    transition:0.2s;
+
+}
+
+
+
+button:hover{
+
+    background:#222;
+    transform:translateY(-5px);
+
+}
+
+
+
+</style>
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+<h1>RUSHINGS</h1>
+
+
+<p>
+Create. Share. Help.
+</p>
+
+
+
+<div class="buttons">
+
+
+<button onclick="openStudio()">
+Studio
+</button>
+
+
+<button onclick="openHelp()">
+Help
+</button>
+
+</div>
+
+
+</div>
+
+
+
+<script>
+
+
+function openStudio(){
+
+window.location.href =
+"https://studio.rushings.xyz";
+
+}
+
+
+
+function openHelp(){
+
+window.location.href =
+"https://help.rushings.xyz";
+
+}
+
+
+
+function openProjects(){
+
+window.location.href =
+"#";
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>
